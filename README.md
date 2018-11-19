@@ -5,9 +5,9 @@
 
 ### 效果图
 <div>
-<img src="https://github.com/liosen/ExoPlayerVideoBlur/blob/master/img/befor.png" width="150" height="250" alt="图片加载失败时"/>
+<img src="https://github.com/liosen/ExoPlayerVideoBlur/blob/master/img/befor.png" width="30%" alt="图片加载失败时"/>
 
-<img src="https://github.com/liosen/ExoPlayerVideoBlur/blob/master/img/after.png" width="150" height="250" alt="图片加载失败时"/>
+<img src="https://github.com/liosen/ExoPlayerVideoBlur/blob/master/img/after.png" width="30%" alt="图片加载失败时"/>
 </div>
 
 |名词|解释|
