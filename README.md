@@ -60,5 +60,5 @@ vec2 dir = vec2(1.0,1.0);
 其他具体内容，请移步博客：
 https://blog.csdn.net/liosen/article/details/83896721
 
-最后，顺手帮忙点击 右上角小星星吧
+
 
