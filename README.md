@@ -45,10 +45,10 @@ vec2 dir = vec2(1.0,1.0);
     int y = blurY;
     for(int i = x;i > 0;i--){ 
     	for(int j = y; j > 0; j--){
-    		sum = texture2D(sTexture, vec2(tc.x + float(i)*blur*hstep, tc.y + float(j)*blur*vstep)) *trans;
-		    sum = texture2D(sTexture, vec2(tc.x - float(i)*blur*hstep, tc.y + float(j)*blur*vstep)) *trans;
-		    sum = texture2D(sTexture, vec2(tc.x - float(i)*blur*hstep, tc.y - float(j)*blur*vstep)) *trans;
-		    sum = texture2D(sTexture, vec2(tc.x + float(i)*blur*hstep, tc.y - float(j)*blur*vstep)) *trans;
+    	    sum = texture2D(sTexture, vec2(tc.x + float(i)*blur*hstep, tc.y + float(j)*blur*vstep)) *trans;
+	    sum = texture2D(sTexture, vec2(tc.x - float(i)*blur*hstep, tc.y + float(j)*blur*vstep)) *trans;
+	    sum = texture2D(sTexture, vec2(tc.x - float(i)*blur*hstep, tc.y - float(j)*blur*vstep)) *trans;
+	    sum = texture2D(sTexture, vec2(tc.x + float(i)*blur*hstep, tc.y - float(j)*blur*vstep)) *trans;
     	}
     }
     vec4 cc= texture2D(sTexture,vTextureCoord );
